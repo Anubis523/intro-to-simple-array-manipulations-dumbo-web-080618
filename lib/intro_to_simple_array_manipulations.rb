@@ -30,8 +30,8 @@ def using_flatten (array)
   array.flatten 
 end
 
-def using_delete (array, string)
-  array.delete(string)
+def using_delete (array, element)
+  array.delete(element)
 end
 
 def using_concat (array, array2)
@@ -42,4 +42,4 @@ def using_insert (array, element)
   array.insert(4, element)
 end
 
-def using_delete_at (array, )
+def using_delete_at (array, element)
