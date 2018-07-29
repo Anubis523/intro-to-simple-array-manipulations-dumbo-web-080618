@@ -42,4 +42,5 @@ def using_insert (array, element)
   array.insert(4, element)
 end
 
-def using_delete_at (array, element)
+def using_delete_at (array, index)
+  array.delete_at(index)
